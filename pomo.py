@@ -1,5 +1,7 @@
 import time
 
+#initial = time.monotonic() #after reading up it says circuit python can only use this. Has to be in seconds
+
 print("Pomodoro timer begins!")
 
 for i in range (4):
