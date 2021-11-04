@@ -23,11 +23,11 @@ while True:
     while breaktime == False:
         # start the countdown
         cp.pixels.fill(red)
-        time_scaled = 10 / 10
+        time_scaled = 10 / 10 # 10 seconds divided by 10 neopixels
 
         # countdown
         for p in range(10):
-            time.sleep(time_scaled)
+            time.sleep(time_scaled) 
             cp.pixels[p] = (0, 0, 0)
 
         #wave gesture
@@ -50,7 +50,7 @@ while True:
         #start breaktime
         cp.pixels.fill(green)
 
-        breaktime_scaled = 5 / 10
+        breaktime_scaled = 5 / 10 # 5 seconds divided by 10 neopixels
 
         # countdown
         for p in range(10):
