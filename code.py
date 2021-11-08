@@ -17,12 +17,8 @@ us100 = adafruit_us100.US100(uart)
 wave_list = []
 
 # set up click gesture
-mic = Sound() # instance of sound class, no parametres needed
-
+mic = Sound() # instance of sound class
 threshold = 100
-
-
-
 
 # breaktime flag
 breaktime = False
@@ -30,7 +26,7 @@ breaktime = False
 
 while True:
     while breaktime == False:
-        # start the countdown
+        # start the work session countdown
         cp.pixels.fill(red)
         time_scaled = 10 / 10 # 10 seconds divided by 10 neopixels
 
