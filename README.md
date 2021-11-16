@@ -1,3 +1,3 @@
 # InteractionDesignModule
 
-You need to save adafruit sound module into libraries on your circuitboard in order to run. You need sound also 
+You need to save adafruit.usp needs to be saved into a folder called 'lib'; you may have one already - if not, create one 
